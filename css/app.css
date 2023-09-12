@@ -122,3 +122,32 @@ a{
     background-color: #00c0e2;
     color: #fff;
 }
+/* media */ 
+@media screen and (max-width:700px){
+    .nav_box{
+        padding: 1rem;
+        width: 80%;
+        justify-content: center;
+    }
+    .logo_nav{
+        width: 100px;
+        top: 0;
+    }
+    .nav_list{
+        gap: 1rem;
+    }
+    .nav_item_link{
+        font-size: 0.6rem;
+        padding: 6px;
+    }
+    .content{
+        height: auto;
+        margin-top: 5rem;
+    }
+    .title_content{
+        font-size: 50px;
+    }
+    .box_form{
+        margin-top: 4rem;
+    }
+}
